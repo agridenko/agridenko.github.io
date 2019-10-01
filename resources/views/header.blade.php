@@ -1,83 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 	<meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Moderna - Bootstrap 3 flat corporate template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="" />
+	<!-- css -->
+	<link href="/public/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/public/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+	<link href="/public/css/jcarousel.css" rel="stylesheet" />
+	<link href="/public/css/flexslider.css" rel="stylesheet" />
+	<link href="/public/css/style.css" rel="stylesheet" />
 
-        <title>My Laravel</title>
+	<!-- Theme skin -->
+	<link href="/public/skins/default.css" rel="stylesheet" />
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="/public/css/app.css">
+	<!-- =======================================================
+    Theme Name: Moderna
+    Theme URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+	======================================================= -->
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
 </head>
+
 <body>
-
-<header>
-	<nav>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/my-work/">My work</a></li>
-			<li><a href="https://dev.1c-bitrix.ru/learning/resume.php?ID=88213544-1095803" target="_blank">My sert</a></li>
-		</ul>
-	</nav>
-
-	<div class="my-logo">
-		<img src="{{asset('images/my_tiny.jpeg')}}" alt="my-foto">
-	</div>
-</header>
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+		<div class="navbar navbar-default navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><span>Alexey</span> Gridenko</a>
+				</div>
+				<div class="navbar-collapse collapse ">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Features <b class=" icon-angle-down"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="typography.html">Typography</a></li>
+								<li><a href="components.html">Components</a></li>
+								<li><a href="pricingbox.html">Pricing box</a></li>
+							</ul>
+						</li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end header -->

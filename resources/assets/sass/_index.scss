@@ -1,3 +1,42 @@
-.flex-center{
-  align-items: inherit;
+
+.position-ref{
+  .timer{
+    margin-top: 80px;
+    div {
+      //display: inline-block;
+      line-height: 1;
+      padding: 0 20px;
+      font-size: 40px;
+      text-align: center;
+    }
+
+    span {
+      display: block;
+      font-size: 20px;
+      color: #636b6f;
+    }
+
+    #timer{
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      #days {
+        font-size: 100px;
+        color: #db4844;
+      }
+      #hours {
+        font-size: 100px;
+        color: #f07c22;
+      }
+      #minutes {
+        font-size: 100px;
+        color: #f6da74;
+      }
+      #seconds {
+        font-size: 50px;
+        color: #abcd58;
+      }
+    }
+  }
 }
+

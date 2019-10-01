@@ -1,6 +1,6 @@
-@include('header');
+@include('header')
 
-        <div class="flex-center position-ref full-height">
+        <div class="position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @if (Auth::check())
@@ -13,22 +13,19 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    <ul>
-                        @foreach($tasks as $task)
-                        <li>{{ $task->body }}</li>
-                        @endforeach
-                    </ul>
+                <div class="work m-b-md col-md-12">
+                    @foreach($tasks as $task)
+                    <div class="items col-md-4">
+                            <div class="title">{{ $task->title }}</div>
+                            <div class="img">{{ $task->image }}<img src="" alt=""></div>
+                            <div class="text">{{ $task->body }}</div>
+<pre><?print_r($task);?></pre>
+                    </div>
+                    @endforeach
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+
             </div>
         </div>
         
-@include('footer');
+@include('footer')
